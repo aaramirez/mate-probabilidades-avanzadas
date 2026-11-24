@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX76XF8R');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Probabilidades avanzadas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="La probabilidad sobre la teoría de la medida: espacios y variables medibles, esperanza como integral de Lebesgue, independencia, esperanza condicional, modos de convergencia, funciones características, las leyes de los grandes números y el teorema central del límite.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX76XF8R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap" data-page="index">
+<header class="topbar"><a class="brand" href="index.html">Probabilidades <b>avanzadas</b></a><span class="eyebrow">Curso visual e interactivo · Matemática</span><a class="al-sitio" href="https://aaramirez.github.io/">← Todos los cursos</a></header>
+<div class="layout">
+<nav class="toc" id="toc" aria-label="Ruta de aprendizaje"></nav>
+<main>
+
+<p class="aviso-curado" role="note">El material de Matemática está en proceso de curado: puede tener errores.</p>
+<header class="hero">
+  <span class="eyebrow">Curso visual e interactivo · Matemática</span>
+  <h1>Por qué el promedio se estabiliza: la respuesta exacta, con medida e integral</h1>
+  <p class="lede">Lanzar una moneda para siempre es un experimento con infinitos resultados, y preguntas como «¿la proporción de caras tiende a 1/2?» no se pueden ni plantear sin teoría de la medida. Este curso pone la probabilidad sobre esa base y con ella demuestra los dos teoremas que sostienen toda la estadística: la ley fuerte de los grandes números y el teorema central del límite.</p>
+</header>
+
+<section>
+  <h2>Cómo usar este curso</h2>
+  <div class="prose">
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 9 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Para estudiantes avanzados de matemática y estadística y del posgrado en modelos aleatorios. Conviene leer antes Probabilidad, por los modelos, los momentos y la esperanza condicional elemental, y Teoría de la medida, por las σ-álgebras, la integral de Lebesgue, los teoremas de convergencia y Fubini. Aquí se usan y se traducen al lenguaje de la probabilidad, sin repetirlos.</p>
+    <p><b>Cómo está hecho.</b> Una moneda lanzada infinitas veces recorre el curso: primero como sucesión de dígitos binarios de un punto al azar en [0, 1], luego como sucesión de variables independientes, y al final como el ejemplo donde se ven la ley fuerte, el teorema central del límite y los números normales de Borel. Los laboratorios dejan mover el tamaño de muestra, la distribución y el modo de convergencia y mirar los contraejemplos; las prácticas usan Python con NumPy y SciPy, o R. Este curso habilita Finanzas cuantitativas.</p>
+  </div>
+</section>
+
+<details class="stage" id="temario" open><summary><h2><span class="pn">Empieza aquí</span> Tabla de contenido</h2></summary>
+  <div class="mods">
+    <a class="mod" href="temario.html"><span class="n">≡</span><b>Tabla de contenido</b><p>Cada capítulo con sus secciones y sus laboratorios.</p></a>
+  </div>
+</details>
+
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> La probabilidad como medida</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="espacios-de-probabilidad"><span class="n">01</span><b>Medida de probabilidad y espacios de probabilidad</b><p>Por qué hace falta la teoría de la medida, el espacio (Ω, 𝓕, P) y cómo se construyen las probabilidades en la recta y en [0, 1].</p></div>
+    <div class="mod soon" data-id="variables-y-leyes"><span class="n">02</span><b>Variables aleatorias medibles y sus leyes</b><p>La variable como función medible, la σ-álgebra que genera, su ley imagen y la descomposición en partes discreta, continua y singular.</p></div>
+    <div class="mod soon" data-id="esperanza-e-independencia"><span class="n">03</span><b>La esperanza como integral e independencia</b><p>La esperanza es la integral de Lebesgue; la independencia es una medida producto, y con eso se construyen las muestras IID.</p></div>
+    <div class="mod soon" data-id="esperanza-condicional"><span class="n">04</span><b>Esperanza condicional respecto de una σ-álgebra</b><p>La definición general con Radon-Nikodym, la proyección en L² y las propiedades que usan las martingalas y la valoración de derivados.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Convergencia</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="modos-de-convergencia"><span class="n">05</span><b>Convergencia de variables aleatorias</b><p>Casi segura, en probabilidad, en Lᵖ y en distribución: definiciones, relaciones demostradas y contraejemplos.</p></div>
+    <div class="mod soon" data-id="funciones-caracteristicas"><span class="n">06</span><b>Funciones características y el teorema de continuidad de Lévy</b><p>La transformada de Fourier de una ley: la fórmula de inversión, la unicidad y la herramienta para probar convergencia en distribución.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> Teoremas límite</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="leyes-de-los-grandes-numeros"><span class="n">07</span><b>Las leyes de los grandes números</b><p>La ley débil de Chebyshev y de Khinchin, la ley fuerte de Kolmogorov y su consecuencia empírica, el teorema de Glivenko-Cantelli.</p></div>
+    <div class="mod soon" data-id="teorema-central-del-limite"><span class="n">08</span><b>El teorema central del límite</b><p>De De Moivre-Laplace a Lindeberg-Feller: por qué la suma estandarizada de muchas variables pequeñas es casi normal.</p></div>
+    <div class="mod soon" data-id="sumas-de-independientes"><span class="n">09</span><b>Sumas de variables aleatorias independientes</b><p>Cuándo converge una serie aleatoria, cuánto se desvía una suma de su media y cómo oscila: Kolmogorov, Hoeffding, Cramér y el logaritmo iterado.</p></div>
+  </div>
+</details>
+
+
+
+<nav class="pager" id="pager" aria-label="Capítulo anterior y siguiente"></nav>
+</main>
+</div>
+<footer><span>Curso abierto de aaramirez.github.io.</span><span>Sitio publicado: <a href="https://github.com/aaramirez/mate-probabilidades-avanzadas" target="_blank" rel="noopener">github.com/aaramirez/mate-probabilidades-avanzadas</a></span></footer>
+</div>
+<script src="assets/lab.js"></script>
+</body>
+</html>
